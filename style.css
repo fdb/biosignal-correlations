@@ -1,0 +1,59 @@
+body {
+  color: #777;
+  line-height: 1.6;
+}
+
+.home-menu {
+  background-color: rgb(196, 196, 196);
+  color: white;
+}
+
+.content {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+}
+
+.content h2 {
+  color: #888;
+  font-weight: 300;
+  margin: 2em 0 1em;
+  position: relative;
+}
+
+.content p {
+  font-size: 1.125em;
+  margin: 1em 0;
+}
+
+.dropzone-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+#dropzone {
+  width: 200px;
+  height: 100px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dropzone.dragover {
+  border-color: #000;
+}
+
+#plot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
